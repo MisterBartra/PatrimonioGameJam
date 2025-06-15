@@ -7,7 +7,8 @@ using UnityEngine.UI;
 public class gameManager : MonoBehaviour
 {
     public audioManager am;
-
+    public uiManager uim;
+    
     public GameObject arrowUp, arrowDown, arrowLeft, arrowRight;
     public GameObject playerIndicator;
     public GameObject enemyIndicator;
@@ -102,6 +103,7 @@ public class gameManager : MonoBehaviour
     }
     IEnumerator ShowSequenceThenEnableInput()
     {
+        yield return new WaitForSeconds(3f);
         SetTurnIndicators(false); // Turno del enemigo (mostrar secuencia)
 
         yield return ShowSequence();
@@ -226,11 +228,14 @@ public class gameManager : MonoBehaviour
 
         if (playerWon)
         {
+            uim.pnlWin.SetActive(true);
             Debug.Log("¡Ganaste!");
             // aquí podrías mostrar una pantalla de victoria
         }
         else
         {
+            uim.pnlLose.SetActive(true);
+
             Debug.Log("¡Perdiste!");
             // aquí podrías mostrar una pantalla de derrota
         }
