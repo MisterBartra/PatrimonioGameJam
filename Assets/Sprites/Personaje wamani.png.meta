@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personaje wamani_0: 6427081115407972696
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

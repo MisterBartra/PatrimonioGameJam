@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personaje Prota_0: -5070020317465301106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

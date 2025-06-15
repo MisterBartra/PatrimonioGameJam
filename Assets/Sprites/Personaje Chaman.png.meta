@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personaje Chaman_0: -6665694522187485484
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

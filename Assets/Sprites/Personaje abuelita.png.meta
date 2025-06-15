@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Personaje abuelita_0: -4035075150431215749
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
